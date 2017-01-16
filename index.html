@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio Website</title>
+    <title>Best Restaurant</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstraptheme.min.css" rel="stylesheet">
@@ -25,7 +25,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="index.html" data-toggle="tooltip" title="Go to Homepage"
-                     data-placement="bottom"><img src="img/img/logo.png" height=30 width=41></a><a class="navbar-brand" href="index.html">Portfolio Website</a>
+                     data-placement="bottom"><img src="img/img/logo.png" height=30 width=41></a><a class="navbar-brand" href="index.html">Best restaurant</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                  <ul class="nav navbar-nav">
@@ -52,7 +52,31 @@
                      <li><a href="contactUs.html"><span class="glyphicon fa-envelope-o"
                       aria-hidden="true"></span> Contact</a></li>
                  </ul>
+                 <ul class="nav navbar-nav navbar-right">
+                      <li><a data-toggle="modal" data-target="#bookModal">
+                      <span class="glyphicon glyphicon-glass"></span> Reserve a table</a>
+                      </li>
+                  </ul>
                </div>
+               <div id="bookModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Reserve a table </h4>
+            </div>
+            <button type="button" class="btn btn-default btn-sm"
+                       data-dismiss="modal">Cancel</button>
+            <div class="modal-body">
+              <form class="form-inline">
+              </form>
+
+
+            </div>
+        </div>
+        </div>
+    </div>
              </div>
     </nav>
     <header class="jumbotron">
@@ -66,18 +90,71 @@
                     <p style="font-size:18px"><i style="color: #FFFFFF">Web Developer & User experience Designer</i></p>
                 </div>
                 <div class="col-xs-12 col-sm-2">
-                  <img src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/15134803_1095373637224769_3727504296713399007_n.jpg?oh=520543a5fa2d249b5960b883dcdba3ff&oe=5917333B" class="img-circle img-responsive" width="175" height="175">
+                  <img src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/15134803_1095373637224769_3727504296713399007_n.jpg?oh=520543a5fa2d249b5960b883dcdba3ff&oe=5917333B" class="img-circle img-responsive" width="100" height="100">
                 </div>
             </div>
         </div>
     </header>
-    <div>
-      <ol class="breadcrumb">
-          <li><a href="index.html">Home</a></li>
-      </ol>
-    </div>
+    <ol class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+    </ol>
+<div class="container">
+      <div class="row row-content">
+           <div class="col-xs-12">
+             <div id="mycarousel" class="carousel slide" data-ride="carousel">
+               <!-- Wrapper for slides -->
+               <!-- Indicators -->
+<ol class="carousel-indicators">
+    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#mycarousel" data-slide-to="1"></li>
+    <li data-target="#mycarousel" data-slide-to="2"></li>
+</ol>
 
-    <div class="container">
+<div class="carousel-inner" role="listbox">
+    <div class="item active">
+        <img class="img-responsive"
+         src="img/img/uthappizza.png" alt="Uthappizza">
+        <div class="carousel-caption">
+        <h2>Uthappizza  <span class="label label-danger">Hot</span> <span class="badge">$4.99</span></h2>
+        <p style="padding-left:120px">A unique combination of Indian Uthappam (pancake) and
+          Italian pizza, topped with Cerignola olives, ripe vine
+          cherry tomatoes, Vidalia onion, Guntur chillies and
+          Buffalo Paneer.</p>
+        <p><a class="btn btn-primary btn-xs" href="#">More &raquo;</a></p>
+        </div>
+    </div>
+    <div class="item">
+        <div class="carousel-caption">
+        <h2>Weekend Grand Buffet <span class="label label-danger label-xs">New</span></h2>
+         <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person</p>
+        </div>
+    </div>
+    <div class="item">
+      <img class="media-object img-thumbnail"
+       src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/15134803_1095373637224769_3727504296713399007_n.jpg?oh=520543a5fa2d249b5960b883dcdba3ff&oe=5917333B" alt="Alberto Somayya" style="width:25%; height:10%;">
+        <div class="carousel-caption">
+          <p style="padding-left:120px">Award winning three-star Michelin chef with wide
+           International experience having worked closely with
+           whos-who in the culinary world, he specializes in
+            creating mouthwatering Indo-Italian fusion experiences.
+           </p>
+        </div>
+    </div>
+</div>
+<!-- Controls -->
+<a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+</a>
+
+
+            </div>
+            </div>
+       </div>
         <div class="row">
             <div class="col-xs-12 col-sm-3 col-sm-push-9">
                 <p style="padding:20px;"></p>
@@ -100,19 +177,21 @@
                     </div>
                 </div>
         </div>
+        <br><br>
 
 
         <div class="row">
-            <div class="col-xs-12 col-sm-3 col-sm-push-9">
+            <div class="col-xs-12 col-sm-3">
                 <p style="padding:20px;"></p>
                 <h3 align=center>This Month's Promotions</h3>
             </div>
-            <div class="col-xs-12 col-sm-9 col-sm-pull-3">
+            <div class="col-xs-12 col-sm-9">
                 <h2>Weekend Grand Buffet</h2>
                 <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
                 <p><a href="#">More &raquo;</a></p>
             </div>
         </div>
+        <br><br>
 
         <div class="row">
             <div class="col-xs-12 col-sm-3 col-sm-push-9">
@@ -123,7 +202,7 @@
                   <div class="media-left media-middle">
                       <a href="#">
                       <img class="media-object img-thumbnail"
-                       src="img/img/alberto.png" alt="Alberto Somayya">
+                       src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/15134803_1095373637224769_3727504296713399007_n.jpg?oh=520543a5fa2d249b5960b883dcdba3ff&oe=5917333B" alt="Alberto Somayya" style="width:130px; height:120px">
                       </a>
                   </div>
                   <div class="media-body">
