@@ -1,0 +1,26 @@
+{
+  "name": "conFUSION",
+  "description": "website for Best restaurant",
+  "main": "index.html",
+  "keywords": [
+    "restaurant",
+    "best"
+  ],
+  "authors": [
+    "Pavan Ulichi"
+  ],
+  "license": "MIT",
+  "homepage": "index",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}
